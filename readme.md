@@ -31,12 +31,12 @@
 
 #### 条件
 > 11 ≤ H, W ≤ 25  
-1 ≤ i ≤ H  
-1 ≤ j ≤ W  
+0 ≤ i ≤ H-1  
+0 ≤ j ≤ W-1  
 a<sub>i,j</sub> = <castle_area> | <pool_area> | <flat_area>  
 2 ≤ A, E ≤ 6  
 A = E  
-1 ≤ k ≤ A,E  
+0 ≤ k ≤ A-1,E-1  
 i ≤ p<sub>k</sub> ≤ H  
 i ≤ q<sub>k</sub> ≤ W
 
@@ -46,16 +46,16 @@ i ≤ q<sub>k</sub> ≤ W
 
 #### 一般例
 > H W  
-> a<sub>1,1</sub> … a<sub>1,W</sub>  
+> a<sub>0,0</sub> … a<sub>0,W-1</sub>  
 > …  
-> a<sub>H,1</sub> … a<sub>H,W</sub>  
+> a<sub>H-1,0</sub> … a<sub>H-1,W-1</sub>  
 
 > A  
-> p<sub>1</sub> q<sub>1</sub>  
+> p<sub>0</sub> q<sub>0</sub>  
 > …  
-> p<sub>A</sub> q<sub>A</sub>  
+> p<sub>A-1</sub> q<sub>A-1</sub>  
 
 > E  
-> p<sub>1</sub> q<sub>1</sub>  
+> p<sub>0</sub> q<sub>0</sub>  
 > …  
-> p<sub>E</sub> q<sub>E</sub>  
+> p<sub>E-1</sub> q<sub>E-1</sub>  
